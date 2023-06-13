@@ -1,13 +1,70 @@
-nav {
-    display: flex;
-    justify-content: flex-end;
-    font-weight: 600;
+header {
+    font-family: sans-serif;
+    padding: 30px;
+    color: rgb(65, 11, 122);
 }
 
-nav a {
-    padding: 20px 30px;
+header ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 30px;
+    font-size: 20px; 
+    font-family: sans-serif;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 25px;
+    background-color: rgb(207, 183, 230);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a {
+    padding: 10px 10px;
     font-size: 20px;
     color: rgb(65, 11, 122);
     text-align: center;
     text-decoration: none;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.aboutus {
+    padding: 30px;
+    color: rgb(65, 11, 122);
+    font-size: large;
+}
+.contactus {
+    padding: 30px;
+    color: rgb(65, 11, 122);
+}
+
+.stores {
+    text-align: center;
+    color: rgb(65, 11, 122);
+    font-size: large;
+    padding: 50px;
+}
+
+#storesButton {
+    font-size: x-large;
+    background-color: rgb(207, 183, 230);
+    color: rgb(65, 11, 122);
+}
+
+header {
+    background-color: rgb(238, 229, 249);
+}
+section {
+    background-color: rgb(247, 245, 220);
 }
