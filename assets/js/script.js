@@ -13,7 +13,15 @@ const stores = [
     },
     {
         store: "Athleta",
-        address: "378 Santana Row | Phone: 408-538-1208"
+        address: "Address: 378 Santana Row | Phone: 408-538-1208"
+    },
+    {
+        store: "Boutique Harajuku",
+        address: "Address: 378 Santana Row Suite 1025 | Phone: 408-260-2150"
+    },
+    {
+        store: "Kendra Scott",
+        address: "Address: 334 Santana Row, Suite 1070 | Phone: 669-231-0300"
     }
     ]
 
