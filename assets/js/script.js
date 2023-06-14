@@ -1,6 +1,7 @@
 // Variables
-var allStoresEl = document.getElementById("#allStores")
-var addressEl = document.getElementById("#address")
+const allStoresEl = document.getElementById("stores")
+const addressEl = document.getElementById("address")
+
 
 // Buttons
 var storesButton = document.getElementById("storesButton")
@@ -16,10 +17,16 @@ const stores = [
     }
     ]
 
+storesButton.addEventListener("click", function(event){
+    showStores(stores)
+})
+
 function showStores(stores) {
-    allStores = `
-    <p>${stores.store}</p>
+    allStores = ``
+    for (var i = 0; i < stores.length; i++){
+    allStores +=`<p>${stores[i].store}</p>
     `;
+    }
     allStoresEl.innerHTML = allStores
-    
+    console.log(stores)
 }
