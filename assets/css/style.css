@@ -68,3 +68,6 @@ header {
 section {
     background-color: rgb(247, 245, 220);
 }
+.store-name {
+  color: blue;
+}

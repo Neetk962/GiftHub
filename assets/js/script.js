@@ -13,15 +13,15 @@ const stores = [
         address: "Address: 356 Santana Row, Suite 1001 | Phone: 408-642-1611",
         products: [
             { 
-                name: 'norvan vest',
+                name: 'Norvan Vest',
                 url: 'https://www.arcteryx.com/us/en/shop/norvan-14-vest'
             },
             { 
-                name: 'granville',
+                name: 'Granville',
                 url: 'https://www.arcteryx.com/us/en/shop/granville-crossbody-bag'
             },
             { 
-                name: 'nuclei',
+                name: 'Nuclei',
                 url: 'https://www.arcteryx.com/us/en/shop/mens/nuclei-vest'
             }            
         ]
@@ -32,15 +32,15 @@ const stores = [
         address: "Address: 378 Santana Row | Phone: 408-538-1208",
         products: [
             { 
-                name: 'brooklyn',
+                name: 'Brooklyn',
                 url: 'https://athleta.gap.com/browse/product.do?pid=534779032&cid=89745&pcid=89745&vid=1&nav=meganav%3ADresses%3ACATEGORIES%3AAll%20Dresses%20%26%20Rompers#pdp-page-content'
             },
             { 
-                name: 'excursion',
+                name: 'Excursion',
                 url: 'https://athleta.gap.com/browse/product.do?pid=882790022&cid=1032096&pcid=1032096&vid=1&nav=meganav%3AAccessories%3ACATEGORIES%3AAll%20Accessories#pdp-page-content'
             },
             { 
-                name: 'poplin',
+                name: 'Poplin',
                 url: 'https://athleta.gap.com/browse/product.do?pid=587913032&cid=1032080&pcid=1032080&vid=1&nav=meganav%3ATops%3ACATEGORIES%3AAll%20Tops#pdp-page-content'
             }            
         ]
@@ -51,15 +51,15 @@ const stores = [
         address: "Address: 378 Santana Row Suite 1025 | Phone: 408-260-2150",
         products: [
             { 
-                name: 'frill',
+                name: 'Frill',
                 url: 'https://www.harajukuboutique.com/product-page/pattern-frill-dress'
             },
             { 
-                name: 'magic',
+                name: 'Magic',
                 url: 'https://www.harajukuboutique.com/product-page/magic-jacket'
             },
             { 
-                name: 'candice',
+                name: 'Candice',
                 url: 'https://www.harajukuboutique.com/product-page/candice-o-less-1'
             }            
         ]
@@ -70,15 +70,15 @@ const stores = [
         address: "Address: 334 Santana Row, Suite 1070 | Phone: 669-231-0300",
         products: [
             { 
-                name: 'susie',
+                name: 'Susie',
                 url: 'https://www.kendrascott.com/new/shop-all-new-arrivals/susie-pendant-necklace-layering-set-of-2/susie-layering-set.html?dwvar_susie-layering-set_metal=GLD'
             },
             { 
-                name: 'emilie',
+                name: 'Emilie',
                 url: 'https://www.kendrascott.com/gifts-150-and-under/emilie-bracelet-set-of-2/emilie-bracelet-set.html?dwvar_emilie-bracelet-set_stoneColor=970'
             },
             { 
-                name: 'madison',
+                name: 'Madison',
                 url: 'https://www.kendrascott.com/madison-daisy-earring-set/madison-earring-set.html?dwvar_madison-earring-set_metal=GLD'
             }            
         ]
@@ -121,15 +121,3 @@ function showProducts(storeId, products) {
     productsEl.innerHTML = allProducts
 }
 
-// "Jeff,Alan,Alvin"
-
-// guestlist = ""
-// guestlist += "Jeff" // "Jeff"
-// guestlist = guestlist + ",Alan"
-
-// guestlist += "whattoadd"
-// guestlist = guestlist + "whattoadd"
-
-// guestlist += ",Alan" // "Jeff,Alan"
-// guestlist += ",Alvin" // "Jeff,Alan,Alvin"
-// guestlist += ",Alan" // "Jeff,Alan"
