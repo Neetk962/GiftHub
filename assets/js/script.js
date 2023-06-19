@@ -121,3 +121,5 @@ function showProducts(storeId, products) {
     productsEl.innerHTML = allProducts
 }
 
+// localStorage.setItem('products', JSON.stringify(stores))
+    // var storageItem = JSON.parse(localStorage.getItem('products'))
