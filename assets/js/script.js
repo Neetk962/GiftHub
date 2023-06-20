@@ -2,10 +2,10 @@
 const allStoresEl = document.getElementById("stores")
 const addressEl = document.getElementById("address")
 
-
 // Buttons
 var storesButton = document.getElementById("storesButton")
 
+// List of stores and products
 const stores = [
     {
         id: "arcteryx",
@@ -85,6 +85,7 @@ const stores = [
     }
 ]
 
+// Making the button work to show the stores and products
 storesButton.addEventListener("click", function (event) {
     showStores(stores)
 })
@@ -121,38 +122,23 @@ function showProducts(storeId, products) {
     productsEl.innerHTML = allProducts
 }
 
-
-// localStorage.setItem('products', JSON.stringify(stores))
-    // var storageItem = JSON.parse(localStorage.getItem('products'))
-
-
-    /*
- * declare map as a global variable
- */
+   // declare map as a global variable
 var map;
 
-/*
- * use google maps api built-in mechanism to attach dom events
- */
+// use google maps api built-in mechanism to attach dom events
 google.maps.event.addDomListener(window, "load", function () {
 
-  /*
-   * create map
-   */
+  // create map, Santana Row location
   var map = new google.maps.Map(document.getElementById("map_div"), {
     center: new google.maps.LatLng(37.3199, -121.9483),
     zoom: 14,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
 
-  /*
-   * create infowindow (which will be used by markers)
-   */
+  // create infowindow (which will be used by markers)
   var infoWindow = new google.maps.InfoWindow();
 
-  /*
-   * marker creater function (acts as a closure for html parameter)
-   */
+  // marker creater function (acts as a closure for html parameter)
   function createMarker(options, html) {
     var marker = new google.maps.Marker(options);
     if (html) {
