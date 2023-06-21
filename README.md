@@ -17,4 +17,4 @@ GeoNames API
 Used class material for reference, as well as searches on: [Google](https://www.google.com)
 
 ## Deployed application:
-[Live Page]()
+[Live Page](https://jtecson85.github.io/GiftHub/)
